@@ -18,7 +18,7 @@ body {
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    background: gray;
+    background: rgb(240, 144, 144);
   
 }
 
@@ -33,7 +33,7 @@ header{
 
 .icon{
     display: flex;
-    margin-left: 2%;
+    
     margin-right: 20px;
 }
 
@@ -44,7 +44,7 @@ header{
 }
 
 .icon i:hover{
-    color:rgba(220, 154, 154, 0.978) ;
+    color:rgba(253, 235, 235, 0.978) ;
 }
 
 #menu-icon{
@@ -99,7 +99,7 @@ header{
 }
 
 .link:hover{
-    color:rgba(220, 154, 154, 0.978);
+    color:rgba(237, 223, 223, 0.978);
     font-size: 15px;
 }
 
@@ -134,7 +134,7 @@ header{
 .btn{
     padding: 20px 35px;
     background: rgb(255, 134, 152);
-    color: aliceblue;
+    color: rgb(240, 240, 240);
     font-size: 14px;
     border-radius: 30px;
     font-weight: 500;
@@ -145,18 +145,57 @@ header{
 
 .btn:hover{
     background: rgb(39, 39, 39);
+    color: aliceblue;
 }
 
 
 .feed{
-    height: 100vh;
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 3%;
- 
-  
+    display: flex;
+    margin-top: 4%;
+    margin-left: 5%;
+    gap: 2rem;
+        
+    
 }
 
-.feed h1{
-    text-align: center;
+.feedimg{
+    overflow: hidden;
+    
+}
+
+.feedimg img{
+    width: 100%;
+    display: block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.feedimg:hover img{
+    transform: scale(1.1);
+}
+
+.quadros h2{
+ text-align: center;
+ font-size: 30px;
+ font-weight: 800;
+ color: rgb(52, 52, 52);
+ margin-top: 5%;
+}
+
+.new-content{
+  display: flex;
+  margin-top: 4%;
+  margin-left: 5%;
+  gap: 0.1rem; 
+}
+
+.new-content img{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.new-content ale{
+    margin-left: 1%;
 }
