@@ -5,24 +5,63 @@
     --fundo-4:rgba(82, 26, 0, 0.689) ;
     --fundo-5:rgba(63, 3, 3, 0.749) ;
     --fundo-6:rgba(158, 93, 39, 0.844) ;
-    --fundo-7:rgba(193, 127, 73, 0.896) ;
+    --fundo-7:rgba(193, 127, 73, 0.54) ;
     --fundo-8:rgba(27, 27, 27, 0.562);
 }
 
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    background-image: url(./flores3\ editada.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: linear-gradient(rgb(0, 0, 0));
+    /* height: 100%; */
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background: gray;
   
 }
 
 
 header{
     display: flex;
+    box-shadow: 0 1px 7px 0 rgb(32 33 36 / 10%);
+    align-items: center;
+    background:rgba(255, 134, 152, 0.907);
+    
+}
+
+.icon{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 20px;
+}
+
+.icon i {
+    font-size: 35px;
+    color: var(--fundo-2);
+    transition: color 0.5s;
+}
+
+.icon i:hover{
+    color:rgba(220, 154, 154, 0.978) ;
+}
+
+#menu-icon{
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    background: var(--fundo-7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    border-radius: 10%;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+
+
 }
 
 
@@ -42,7 +81,7 @@ header{
     height: auto;
     display: flex;
     font-family: "Dancing Script";
-    color: wheat;
+    color: rgb(41, 41, 41);
     margin-left: 3rem;
 
 }
@@ -60,20 +99,64 @@ header{
 }
 
 .link:hover{
-    color: rgb(174, 163, 146);
+    color:rgba(220, 154, 154, 0.978);
+    font-size: 15px;
 }
 
-.escrito{
-   text-align: center;
-    margin-top: 15rem;
+.pag{
+    padding: 60px 14% 70px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(./imagens/fundo1.jpg);
+    background-size: cover;
+  
 }
 
-.escrito h1{
-    font-family: "lora";
-    color: rgb(251, 251, 251);
+.texto h1{
+    font-family: "Leckerli One",cursive;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    line-height: 1.3;
+    margin-bottom:25px ;
 }
 
-.escrito h2{
-    font-family: "lora";
+.texto p{
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 60px;
+}
+
+.btn{
+    padding: 20px 35px;
+    background: rgb(255, 134, 152);
     color: aliceblue;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .50s ease;
+    
+}
+
+.btn:hover{
+    background: rgb(39, 39, 39);
+}
+
+
+.feed{
+    height: 100vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+ 
+  
+}
+
+.feed h1{
+    text-align: center;
 }
