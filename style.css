@@ -18,7 +18,7 @@ body {
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    background: rgb(240, 144, 144);
+    background: rgb(240, 209, 209);
   
 }
 
@@ -28,6 +28,7 @@ header{
     box-shadow: 0 1px 7px 0 rgb(32 33 36 / 10%);
     align-items: center;
     background:rgba(255, 134, 152, 0.907);
+ 
     
 }
 
@@ -106,14 +107,13 @@ header{
 .pag{
     padding: 60px 14% 70px;
     position: relative;
-    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     background-image: url(./imagens/fundo1.jpg);
     background-size: cover;
-  
+   
 }
 
 .texto h1{
@@ -148,11 +148,69 @@ header{
     color: aliceblue;
 }
 
+.quadros h2{
+ text-align: center;
+ font-size: 30px;
+ font-weight: 800;
+ color: rgb(52, 52, 52);
+ margin-top: 4%;
+}
+
+.new-content{
+  display: flex;
+  margin-top: 4%;
+  margin-left: 3%;
+  
+  text-align: center;
+}
+
+.new-content img{
+
+    width: 90%;
+    display: block;
+    transition: transform 0.5s;
+    cursor: pointer;
+    
+}
+
+
+
+.new-content img:hover{
+    transform: scale(1.1);
+}
+
+.row h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .50s ease;
+}
+
+.row h4:hover{
+    color: rgb(253, 28, 28);
+}
+
+.row h5{
+    color: var(--fundo-8);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.prontos .text2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(52, 52, 52);
+    margin-top: 5%;
+
+}
 
 .feed{
     display: flex;
     margin-top: 4%;
-    margin-left: 5%;
+    margin-left: 3%;
     gap: 2rem;
         
     
@@ -160,6 +218,7 @@ header{
 
 .feedimg{
     overflow: hidden;
+    text-align: center;
     
 }
 
@@ -174,28 +233,80 @@ header{
     transform: scale(1.1);
 }
 
-.quadros h2{
- text-align: center;
+.feedimg h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .50s ease;
+
+}
+
+.feedimg h4:hover{
+    color: rgb(253, 28, 28);
+}
+
+.feedimg h5{
+    color: var(--fundo-8);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+    
+.duvidas h2{
+text-align: center;
  font-size: 30px;
  font-weight: 800;
  color: rgb(52, 52, 52);
  margin-top: 5%;
+
+
 }
 
-.new-content{
-  display: flex;
-  margin-top: 4%;
-  margin-left: 5%;
-  gap: 0.1rem; 
+.duvidas{
+    background: rgba(151, 72, 72, 0.308);
+    margin-left: 4%;
+    margin-right: 3%;
+    border-radius: 5%;
+    margin-bottom: 5%;
 }
 
-.new-content img{
-    width: 90%;
-    display: flex;
-    align-items: center;
+.duvidas .text3{
+    margin-top: 7%;
+    margin-left: 4%;
     
 }
 
-.new-content ale{
-    margin-left: 1%;
+.duvidas span{
+    font-size: 20px;
 }
+
+.produtos{
+    background: rgba(151, 72, 72, 0.308);
+    margin-left: 4%;
+    margin-right: 3%;
+    border-radius: 3.5%;
+    margin-bottom: 5%;
+
+}
+
+.contato {
+	background-color: #e85f5f;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.contato ul{
+    list-style: none;
+}
+
+.cont{
+    text-decoration: none;
+    color: rgb(44, 43, 44);
+    font-size: 17px;
+}
+
