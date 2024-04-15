@@ -159,7 +159,7 @@ header{
 .new-content{
   display: flex;
   margin-top: 4%;
-  margin-left: 3%;
+  margin-left: 5%;
   
   text-align: center;
 }
@@ -210,7 +210,7 @@ header{
 .feed{
     display: flex;
     margin-top: 4%;
-    margin-left: 3%;
+    margin-left: 5%;
     gap: 2rem;
         
     
